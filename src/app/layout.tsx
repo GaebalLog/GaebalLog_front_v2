@@ -1,10 +1,8 @@
 import React from "react";
-import "./reset.css";
-import "./ckeditor.css";
-import "./globals.css";
 import type { Metadata } from "next";
 
 import "regenerator-runtime/runtime";
+import SettingProvider from "@/components/provider/SettingsProvider";
 
 export const metadata: Metadata = {
   title: "개발자들의 소통공간, 개발로그",
@@ -33,7 +31,9 @@ const RootLayout: React.FC<{
         />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body>{children}</body>
+      <body>
+        <SettingProvider>{children}</SettingProvider>
+      </body>
     </html>
   );
 };

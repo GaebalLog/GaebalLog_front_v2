@@ -2,17 +2,11 @@
 
 —
 
-### 리뷰 시 참고사항
-
-—
-
 ### PR type
 
-- [ ] Bugfix
-- [ ] Feature
-- [ ] Code style update (formatting, local variables)
-- [ ] Refactoring (no functional changes, no api changes)
-- [ ] Build related changes
-- [ ] CI related changes
-- [ ] Documentation content changes
+- [ ] 버그 수정
+- [ ] 기능 추가
+- [ ] 코드 일부 수정
+- [ ] 리팩토링(기능, 코드, 의존성)
+- [ ] 설정 변경
 - [ ] Other (설명):
